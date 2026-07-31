@@ -255,10 +255,10 @@ def plot_roc_curve(model_id, x_test, model, pca, scaler, clf):
     plt.legend(loc="lower right")
     plt.show()
 
-models = [triplet_model, circle_model, multisim_model, npdot_model]
-pcas = [triplet_pca, circle_pca, multisim_pca, npdot_pca]
-scalers = [triplet_scaler, circle_scaler, multisim_scaler, npdot_scaler]
-clfs = [triplet_clf, circle_clf, multisim_clf, npdot_clf]
+# models = [triplet_model, circle_model, multisim_model, npdot_model]
+# pcas = [triplet_pca, circle_pca, multisim_pca, npdot_pca]
+# scalers = [triplet_scaler, circle_scaler, multisim_scaler, npdot_scaler]
+# clfs = [triplet_clf, circle_clf, multisim_clf, npdot_clf]
 
 def plot_roc_curves(models, x_test, pcas, scalers, clfs):
     """

@@ -102,4 +102,11 @@ def dynamic_patcher(
         mask = cv2.imread(os.path.join(MASKS_FOLDER_PATH,mask_id), 0)
         mask = (mask > 0).astype(int)
 
-        crop(img, mask, img_id, WITH_LEISH_STRIDE, NO_LEISH_STRIDE, SHAPE)
+        # crop(img, mask, img_id, WITH_LEISH_STRIDE, NO_LEISH_STRIDE, SHAPE)
+
+        # crop(img, mask, img_id, WITH_LEISH_STRIDE, NO_LEISH_STRIDE, config.WINDOW_SIZE)
+
+        crop(img, mask, img_id, WITH_LEISH_STRIDE, NO_LEISH_STRIDE)
+
+if __name__ == '__main__':
+    dynamic_patcher()

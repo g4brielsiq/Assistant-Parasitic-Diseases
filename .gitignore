@@ -1,0 +1,19 @@
+# Ambientes Virtuais e Cache
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.vscode/
+
+# Pastas de Dados Locais (Bloqueia os milhares de patches .png)
+data/
+
+# Modelos Salvos (Bloqueia os arquivos .pth, .joblib e matrizes .npy)
+models/
+
+# Gráficos e Saídas Visuais
+plots/
+
+# Arquivos de configuração de sistema operacionais
+.DS_Store
+Thumbs.db
